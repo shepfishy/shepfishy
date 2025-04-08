@@ -1,17 +1,53 @@
-<svg fill="none" viewBox="0 0 800 60" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 70" width="800" height="70" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         .section-header {
-          background: #0d1117;
-          color: #26B0F7;
+          background: linear-gradient(90deg, #0d1117, #161b22, #0d1117);
+          color: #8be9fd;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
           font-size: 1.8rem;
-          padding: 10px;
-          margin: 15px 0;
-          border-bottom: 2px solid #26B0F7;
+          padding: 15px;
+          margin: 18px 0;
+          border-top: 2px solid rgba(139, 233, 253, 0.3);
+          border-bottom: 2px solid #8be9fd;
+          border-radius: 8px;
           text-align: center;
-          font-weight: bold;
+          font-weight: 700;
+          letter-spacing: 1px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+          text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+          position: relative;
+          overflow: hidden;
+          animation: shimmer 8s ease-in-out infinite;
+        }
+        
+        .section-header::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -150%;
+          width: 150%;
+          height: 100%;
+          background: linear-gradient(90deg, 
+            transparent, 
+            rgba(139, 233, 253, 0.1), 
+            transparent
+          );
+          transform: skewX(-20deg);
+          animation: shine 6s infinite;
+        }
+        
+        @keyframes shine {
+          0% { left: -150%; }
+          20% { left: 100%; }
+          100% { left: 100%; }
+        }
+        
+        @keyframes shimmer {
+          0% { box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+          50% { box-shadow: 0 4px 20px rgba(139, 233, 253, 0.3); }
+          100% { box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
         }
       </style>
       <div class="section-header">📫 My Socials</div>

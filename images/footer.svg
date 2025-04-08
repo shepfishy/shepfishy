@@ -1,19 +1,113 @@
-<svg fill="none" viewBox="0 0 800 60" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 80" width="800" height="80" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         .footer {
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
-          margin-top: 20px;
-          padding: 10px;
-          background: linear-gradient(90deg, rgba(45,45,45,0), rgba(45,45,45,0.3), rgba(45,45,45,0));
-          border-radius: 5px;
+          margin-top: 30px;
+          padding: 20px;
+          background: linear-gradient(180deg, 
+            rgba(13, 17, 23, 0.8) 0%, 
+            rgba(22, 27, 34, 0.9) 50%,
+            rgba(13, 17, 23, 0.8) 100%
+          );
+          border-radius: 10px;
+          position: relative;
+          box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+          border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .footer-text {
+          color: #a9b1d6;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          font-size: 0.9rem;
+          margin: 0;
+          text-align: center;
+          opacity: 0.8;
+          letter-spacing: 0.5px;
+        }
+        
+        .footer::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 1px;
+          background: linear-gradient(90deg, 
+            transparent, 
+            rgba(255,255,255,0.15), 
+            transparent
+          );
+        }
+        
+        .stars {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+        
+        .star {
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.5);
+          border-radius: 50%;
+          width: 1px;
+          height: 1px;
+        }
+        
+        .star:nth-child(1) {
+          top: 20%;
+          left: 10%;
+          animation: twinkle 4s infinite;
+        }
+        
+        .star:nth-child(2) {
+          top: 30%;
+          left: 25%;
+          animation: twinkle 5s infinite 1s;
+        }
+        
+        .star:nth-child(3) {
+          top: 15%;
+          left: 60%;
+          animation: twinkle 3.5s infinite 0.5s;
+        }
+        
+        .star:nth-child(4) {
+          top: 25%;
+          left: 80%;
+          animation: twinkle 4.5s infinite 1.5s;
+        }
+        
+        .star:nth-child(5) {
+          top: 60%;
+          left: 40%;
+          animation: twinkle 6s infinite 2s;
+        }
+        
+        @keyframes twinkle {
+          0% { opacity: 0.2; }
+          50% { opacity: 1; }
+          100% { opacity: 0.2; }
         }
       </style>
       <div class="footer">
-        <span style="color: white; font-family: system-ui;">Profile Views: </span>
+        <div class="stars">
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+        </div>
+        <div class="footer-text">Thanks for visiting my profile!</div>
       </div>
     </div>
   </foreignObject>
