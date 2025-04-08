@@ -1,6 +1,6 @@
-<svg fill="none" viewBox="0 0 800 150" width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 150" width="100%" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; display: flex; justify-content: center; align-items: center;">
       <style>
         .container {
           display: flex;
@@ -8,6 +8,7 @@
           align-items: center;
           justify-content: center;
           width: 100%;
+          max-width: 600px;
           height: 140px;
           background: linear-gradient(-45deg, #6e45e1, #1da1f2, #089de3, #8a2be2, #4f46e5);
           background-size: 400% 400%;
@@ -16,6 +17,7 @@
           box-shadow: 0 8px 16px rgba(0,0,0,0.3);
           overflow: hidden;
           position: relative;
+          margin: 0 auto;
         }
         
         /* Add floating particles effect */
@@ -41,6 +43,7 @@
           margin: 0;
           padding: 20px 0;
           animation: fadeIn 1.5s ease-out;
+          text-align: center;
         }
         
         @keyframes gradient {

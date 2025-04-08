@@ -1,6 +1,6 @@
-<svg fill="none" viewBox="0 0 800 70" width="800" height="70" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 70" width="100%" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; display: flex; justify-content: center; align-items: center;">
       <style>
         .section-header {
           background: linear-gradient(90deg, #0d1117, #161b22, #0d1117);
@@ -8,7 +8,7 @@
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
           font-size: 1.8rem;
           padding: 15px;
-          margin: 18px 0;
+          margin: 18px auto;
           border-top: 2px solid rgba(139, 233, 253, 0.3);
           border-bottom: 2px solid #8be9fd;
           border-radius: 8px;
@@ -20,6 +20,8 @@
           position: relative;
           overflow: hidden;
           animation: shimmer 8s ease-in-out infinite;
+          max-width: 500px;
+          width: 100%;
         }
         
         .section-header::before {
