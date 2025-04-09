@@ -14,12 +14,28 @@
   ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
   <img src="images/projects.svg" width="100%" alt="Projects">
-
+  
+  <img src="images/projects-hover.svg" width="100%">
   <a href="https://github.com/Thecoolcookie99/napbypass.github.io">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=thecoolcookie99&repo=napbypass.github.io&theme=tokyonight" alt="napbypass">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=thecoolcookie99&repo=napbypass.github.io&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="napbypass">
   </a>
-  <a href="https://github.com/shepfishy/MC-Server-mgr">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=MC-Server-mgr&theme=tokyonight" alt="MC-Server-mgr">
+  <a href="https://github.com/shepfishy/Minecraft-Server-Manager">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=Minecraft-Server-Manager&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="MC-Server-mgr">
+  </a>
+  <a href="https://github.com/shepfishy/mathspaceBot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=mathspaceBot&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="Mathspace Bot">
+  </a>
+  <a href="https://github.com/shepfishy/shepfishy.github.io">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=shepfishy.github.io&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="Personal Website">
+  </a>
+  <a href="https://github.com/shepfishy/discordMeadow-scripts">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=discordMeadow-scripts&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="Discord Meadow Cheats">
+  </a>
+  <a href="https://github.com/shepfishy/KineticEducation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=KineticEducation&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="Kinetic Education Cheats">
+  </a>
+  <a href="https://github.com/shepfishy/epCheats">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shepfishy&repo=epCheats&theme=tokyonight&border_color=1A95F5&title_color=70A9FF&icon_color=70A9FF&border_radius=10" alt="Education Perfect Hacks">
   </a>
 
   <img src="images/socials.svg" width="100%" alt="Socials">
