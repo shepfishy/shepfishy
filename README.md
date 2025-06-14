@@ -30,7 +30,7 @@
 
   <img src="images/music.svg" width="100%" alt="Music">
 
-  [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hc6mcredadgewrlmnxgn6pyxh4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
+  [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hc6mcredadgewrlmnxgn6pyxh4&cover_image=true&theme=default&show_offline=false&background_color=0d1117&interchange=true&bar_color_cover=true&bar_color=43a040)](https://github.com/kittinan/spotify-github-profile)
 
   <img src="images/footer.svg" width="100%" alt="Footer">
   <img src="https://komarev.com/ghpvc/?username=shepfishy&color=blueviolet" alt="Profile views"/>
