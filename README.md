@@ -4,5 +4,5 @@
 
 <p align="center">
   <b>And the Aspie Test. because yes.</b>
-  <img src="http://www.rdos.net/eng/poly10c.php?p1=88&p2=49&p3=83&p4=48&p5=87&p6=85&p7=72&p8=69&p9=38&p10=8" alt=":name2" />
+  <img src="poly10c.png" alt=":name2" />
 </p>
